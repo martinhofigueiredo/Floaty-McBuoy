@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 ]
 
-ROOT_URLCONF = 'buoy2.urls'
+ROOT_URLCONF = 'floaty.urls'
 
 TEMPLATES = [
     {
@@ -88,7 +88,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'buoy2.wsgi.application'
+WSGI_APPLICATION = 'floaty.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
 'oscar.apps.customer.auth_backends.EmailBackend',
