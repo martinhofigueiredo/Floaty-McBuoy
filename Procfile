@@ -1,2 +1,2 @@
 release: python manage.py migrate --noinput
-web: gunicorn buoy2.wsgi
+web: gunicorn floaty.wsgi
